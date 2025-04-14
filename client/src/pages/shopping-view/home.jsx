@@ -32,11 +32,11 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { getFeatureImages } from "@/store/common-slice";
 
 const categoriesWithIcon = [
-  { id: "men", label: "Men", icon: ShirtIcon },
-  { id: "women", label: "Women", icon: CloudLightning },
-  { id: "kids", label: "Kids", icon: BabyIcon },
-  { id: "accessories", label: "Accessories", icon: WatchIcon },
-  { id: "footwear", label: "Footwear", icon: UmbrellaIcon },
+  { id: "ceiling", label: "Ceiling", icon: ShirtIcon },
+  { id: "walls", label: "Walls", icon: CloudLightning },
+  { id: "windows", label: "Windows", icon: BabyIcon },
+  { id: "furniture", label: "Furniture", icon: WatchIcon },
+  { id: "flooring", label: "Flooring", icon: UmbrellaIcon },
 ];
 
 const brandsWithIcon = [

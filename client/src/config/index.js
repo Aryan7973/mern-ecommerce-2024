@@ -58,11 +58,11 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "ceiling", label: "Ceiling" },
+      { id: "walls", label: "Walls" },
+      { id: "windows", label: "Windows" },
+      { id: "furniture", label: "Furniture" },
+      { id: "flooring", label: "Flooring" },
     ],
   },
   {
@@ -113,28 +113,28 @@ export const shoppingViewHeaderMenuItems = [
     path: "/shop/listing",
   },
   {
-    id: "men",
-    label: "Men",
+    id: "ceiling",
+    label: "Ceiling",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "walls",
+    label: "Walls",
     path: "/shop/listing",
   },
   {
-    id: "kids",
-    label: "Kids",
+    id: "windows",
+    label: "Windows",
     path: "/shop/listing",
   },
   {
-    id: "footwear",
-    label: "Footwear",
+    id: "furniture",
+    label: "Furniture",
     path: "/shop/listing",
   },
   {
-    id: "accessories",
-    label: "Accessories",
+    id: "flooring",
+    label: "Flooring",
     path: "/shop/listing",
   },
   {
@@ -145,11 +145,11 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
-  accessories: "Accessories",
-  footwear: "Footwear",
+  ceiling: "Ceiling",
+  walls: "Walls",
+  windows: "Windows",
+  furniture: "Furniture",
+  flooring: "Flooring",
 };
 
 export const brandOptionsMap = {
@@ -163,11 +163,11 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
+    { id: "ceiling", label: "Ceiling" },
+    { id: "walls", label: "Walls" },
+    { id: "windows", label: "Windows" },
+    { id: "furniture", label: "Furniture" },
+    { id: "flooring", label: "Flooring" },
   ],
   brand: [
     { id: "nike", label: "Nike" },
